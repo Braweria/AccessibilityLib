@@ -1,5 +1,4 @@
-/* Accessibility Lib v0.0.0-0020 */
-
+/* Accessibility Lib v0.0.0-0021 */
 
 /* BUTTON STYLING */
 
@@ -26,62 +25,62 @@ button:disabled {
 }
 
 button.primary {
-  background: #2E57A4;
+  background: #2e57a4;
   color: white;
   border: none;
 }
 
 button.primary:hover {
-  background: #051C48;
+  background: #051c48;
 }
 
 button.primary:disabled {
-  background: #6279A4;
+  background: #6279a4;
 }
 
 button.secondary {
   background: white;
-  border: 3px solid #2E57A4;
-  color: #051C48;
+  border: 3px solid #2e57a4;
+  color: #051c48;
   font-weight: 500;
 }
 
 button.secondary:hover {
-  background: #2E57A4;
-  border-color: #2E57A4;
+  background: #2e57a4;
+  border-color: #2e57a4;
   color: white;
 }
 
 button.secondary:disabled {
-  background: #E6EAF2;
-  border-color: #6279A4;
-  color: #051C48;
+  background: #e6eaf2;
+  border-color: #6279a4;
+  color: #051c48;
 }
 
 button.tertiary {
-  background: #DDEDF9;
-  border: 2px solid #2E57A4;
-  color: #051C48;
+  background: #ddedf9;
+  border: 2px solid #2e57a4;
+  color: #051c48;
   font-weight: 500;
 }
 
 button.tertiary:hover {
-  background: #86AFCF;
+  background: #86afcf;
 }
 
 button.tertiary:disabled {
-  background: #E6EDF2;
+  background: #e6edf2;
 }
 
 button.text-button {
   background: none;
   border: none;
-  color: #051C48;
+  color: #051c48;
   font-weight: 500;
 }
 
 button.text-button:hover {
-  background: #DDEDF9;
+  background: #ddedf9;
 }
 
 button.text-button:disabled {
@@ -108,7 +107,6 @@ button.icon.round {
   border-radius: 0;
   margin-left: -2px;
   margin-right: -2px;
-
 }
 
 .button-group button.tertiary {
@@ -128,4 +126,42 @@ button.icon.round {
 .button-group button:nth-last-child(1) {
   border-radius: 0 10px 10px 0;
   margin-right: 5px;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+button.button-arrow {
+  width: 30px;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-size: 16px;
+}
+
+.dropdown-menu {
+  border: 2px solid #2E57A4;
+  border-radius: 10px;
+  overflow: hidden;
+  /* padding: 10px; */
+}
+
+.dropdown-menu ul {
+  list-style: none;
+}
+
+.dropdown-menu ul li {
+  /* margin: 10px 0; */
+}
+
+.dropdown-menu ul li a {
+  display: inline-block;
+  padding: 10px;
+  width: 100%;
+}
+
+.dropdown-menu ul li a:hover {
+  background: #DDEDF9;
 }
