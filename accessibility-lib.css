@@ -18,3 +18,7 @@ button.primary {
   color: white;
   border: none;
 }
+
+button.primary:disabled {
+  background: #6279A4;
+}
