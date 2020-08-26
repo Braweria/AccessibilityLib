@@ -1,4 +1,8 @@
-/* Accessibility Lib v0.0.0-0022 */
+/*
+Accessibility Lib v0.0.0-0027
+Author: Wiktoria Mielcarek (braweria.de) @Braweria on Social Media
+Copyright 2020
+*/
 
 /* VARIABLES */
 
@@ -219,4 +223,88 @@ button.primary.info {
 button.primary.info:hover {
   background: var(--info-col-d);
   color: white;
+}
+
+button.secondary.warning {
+  border-color: var(--warning-col-n);
+  color: var(--warning-col-d)
+}
+
+button.secondary.warning:hover {
+  background: var(--warning-col-n);
+  color: white;
+}
+
+button.secondary.success {
+  border-color: var(--success-col-n);
+  color: var(--success-col-d)
+}
+
+button.secondary.success:hover {
+  background: var(--success-col-n);
+  color: white;
+}
+
+button.secondary.info {
+  border-color: var(--info-col-n);
+  color: var(--info-col-d);
+}
+
+button.secondary.info:hover {
+  background: var(--info-col-n);
+}
+
+button.tertiary.warning {
+  border-color: var(--warning-col-n);
+  background: var(--warning-col-l);
+  color: var(--warning-col-d)
+}
+
+button.tertiary.warning:hover {
+  background: #C44D58;
+  color: white;
+}
+
+button.tertiary.success {
+  border-color: var(--success-col-n);
+  background: var(--success-col-l);
+  color: var(--success-col-d)
+}
+
+button.tertiary.success:hover {
+  background: #A4C170;
+}
+
+button.tertiary.info {
+  border-color: var(--info-col-n);
+  background: var(--info-col-l);
+  color: var(--info-col-d);
+}
+
+button.tertiary.info:hover {
+  background: #D2CB6E;
+}
+
+button.text-button.warning {
+  color: var(--warning-col-d)
+}
+
+button.text-button.warning:hover {
+  background: var(--warning-col-l);
+}
+
+button.text-button.success {
+  color: var(--success-col-d)
+}
+
+button.text-button.success:hover {
+  background: var(--success-col-l);
+}
+
+button.text-button.info {
+  color: var(--info-col-d);
+}
+
+button.text-button.info:hover {
+  background: var(--info-col-l);
 }
