@@ -23,7 +23,11 @@ button.primary {
   border: none;
 }
 
+button.primary:hover {
+  background: #051C48;
+}
+
 button.primary:disabled {
   background: #6279A4;
-  
 }
+
