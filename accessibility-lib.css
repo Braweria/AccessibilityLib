@@ -71,3 +71,19 @@ button.tertiary:hover {
 button.tertiary:disabled {
   background: #E6EDF2;
 }
+
+button.text-button {
+  background: none;
+  border: none;
+  color: #051C48;
+  font-weight: 500;
+}
+
+button.text-button:hover {
+  background: #DDEDF9;
+}
+
+button.text-button:disabled {
+  background: none;
+  text-decoration: line-through;
+}
