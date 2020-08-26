@@ -98,3 +98,34 @@ button.icon {
 button.icon.round {
   border-radius: 50%;
 }
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-group button {
+  border-radius: 0;
+  margin-left: -2px;
+  margin-right: -2px;
+
+}
+
+.button-group button.tertiary {
+  margin-left: -1px;
+  margin-right: -1px;
+}
+
+.button-group button.primary {
+  border: 3px solid white;
+}
+
+.button-group button:nth-child(1) {
+  border-radius: 10px 0 0 10px;
+  margin-left: 5px;
+}
+
+.button-group button:nth-last-child(1) {
+  border-radius: 0 10px 10px 0;
+  margin-right: 5px;
+}
