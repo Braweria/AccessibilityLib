@@ -1,7 +1,7 @@
 /* Accessibility Lib v0.0-develop.1 */
 
 
-
+/* BUTTON STYLING */
 
 button {
   padding: 7px 20px;
@@ -50,3 +50,4 @@ button.secondary:disabled {
   border-color: #6279A4;
   color: #051C48;
 }
+
