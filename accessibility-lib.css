@@ -7,7 +7,7 @@ button {
   padding: 7px 20px;
   border: 3px solid black;
   background: lightgrey;
-  border-radius: 5px;
+  border-radius: 10px;
   color: black;
   font-weight: 700;
   font-size: 20px;
@@ -87,4 +87,14 @@ button.text-button:hover {
 button.text-button:disabled {
   background: none;
   text-decoration: line-through;
+}
+
+button.icon {
+  padding: 6px 8px;
+  height: 47px;
+  width: 47px;
+}
+
+button.icon.round {
+  border-radius: 50%;
 }
