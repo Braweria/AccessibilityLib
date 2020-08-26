@@ -48,4 +48,5 @@ button.secondary:hover {
 button.secondary:disabled {
   background: #E6EAF2;
   border-color: #6279A4;
+  color: #051C48;
 }
