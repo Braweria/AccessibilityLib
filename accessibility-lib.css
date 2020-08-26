@@ -1,4 +1,14 @@
-/* Accessibility Lib v0.0.0-0021 */
+/* Accessibility Lib v0.0.0-0022 */
+
+/* RESET */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open-Sans", sans-serif;
+}
+
 
 /* BUTTON STYLING */
 
