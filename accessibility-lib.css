@@ -1,5 +1,25 @@
 /* Accessibility Lib v0.0.0-0022 */
 
+/* VARIABLES */
+
+:root {
+  --primary-col-n: #2e57a4;
+  --primary-col-d: #051c48;
+  --primary-col-l: #ddedf9;
+
+  --warning-col-n: #d53343;
+  --warning-col-d: #500708;
+  --warning-col-l: #ee838d;
+
+  --success-col-n: #229571;
+  --success-col-d: #041F15;
+  --success-col-l: #DCF2B5;
+
+  --info-col-n: #CEBF2F;
+  --info-col-d: #5D480D;
+  --info-col-l: #FFF9A7;
+}
+
 /* RESET */
 
 * {
@@ -8,7 +28,6 @@
   box-sizing: border-box;
   font-family: "Open-Sans", sans-serif;
 }
-
 
 /* BUTTON STYLING */
 
@@ -35,13 +54,13 @@ button:disabled {
 }
 
 button.primary {
-  background: #2e57a4;
+  background: var(--primary-col-n);
   color: white;
   border: none;
 }
 
 button.primary:hover {
-  background: #051c48;
+  background: var(--primary-col-d);
 }
 
 button.primary:disabled {
@@ -50,27 +69,27 @@ button.primary:disabled {
 
 button.secondary {
   background: white;
-  border: 3px solid #2e57a4;
-  color: #051c48;
+  border: 3px solid var(--primary-col-n);
+  color: var(--primary-col-d);
   font-weight: 500;
 }
 
 button.secondary:hover {
-  background: #2e57a4;
-  border-color: #2e57a4;
+  background: var(--primary-col-n);
+  border-color: var(--primary-col-n);
   color: white;
 }
 
 button.secondary:disabled {
   background: #e6eaf2;
   border-color: #6279a4;
-  color: #051c48;
+  color: var(--primary-col-d);
 }
 
 button.tertiary {
-  background: #ddedf9;
-  border: 2px solid #2e57a4;
-  color: #051c48;
+  background: var(--primary-col-l);
+  border: 2px solid var(--primary-col-n);
+  color: var(--primary-col-d);
   font-weight: 500;
 }
 
@@ -85,12 +104,12 @@ button.tertiary:disabled {
 button.text-button {
   background: none;
   border: none;
-  color: #051c48;
+  color: var(--primary-col-d);
   font-weight: 500;
 }
 
 button.text-button:hover {
-  background: #ddedf9;
+  background: var(--primary-col-l);
 }
 
 button.text-button:disabled {
@@ -152,7 +171,7 @@ button.button-arrow {
 }
 
 .dropdown-menu {
-  border: 2px solid #2E57A4;
+  border: 2px solid var(--primary-col-n);
   border-radius: 10px;
   overflow: hidden;
   /* padding: 10px; */
@@ -173,5 +192,31 @@ button.button-arrow {
 }
 
 .dropdown-menu ul li a:hover {
-  background: #DDEDF9;
+  background: var(--primary-col-l);
+}
+
+button.primary.warning {
+  background: var(--warning-col-n);
+}
+
+button.primary.warning:hover {
+  background: var(--warning-col-d);
+}
+
+button.primary.success {
+  background: var(--success-col-n);
+}
+
+button.primary.success:hover {
+  background: var(--success-col-d);
+}
+
+button.primary.info {
+  background: var(--info-col-n);
+  color: var(--info-col-d);
+}
+
+button.primary.info:hover {
+  background: var(--info-col-d);
+  color: white;
 }
