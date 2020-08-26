@@ -13,6 +13,10 @@ button {
   font-size: 20px;
 }
 
+button:disabled {
+  cursor: not-allowed;
+}
+
 button.primary {
   background: #2E57A4;
   color: white;
@@ -21,4 +25,5 @@ button.primary {
 
 button.primary:disabled {
   background: #6279A4;
+  
 }
