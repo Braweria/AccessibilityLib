@@ -11,6 +11,7 @@ button {
   color: black;
   font-weight: 700;
   font-size: 20px;
+  text-align: center;
 }
 
 button:disabled {
@@ -31,3 +32,20 @@ button.primary:disabled {
   background: #6279A4;
 }
 
+button.secondary {
+  background: white;
+  border: 3px solid #2E57A4;
+  color: #051C48;
+  font-weight: 500;
+}
+
+button.secondary:hover {
+  background: #2E57A4;
+  border-color: #2E57A4;
+  color: white;
+}
+
+button.secondary:disabled {
+  background: #E6EAF2;
+  border-color: #6279A4;
+}
